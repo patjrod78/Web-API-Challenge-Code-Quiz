@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Coding Quiz Challenge</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div id="info">
+                <button id="scores">View High Scores</button>
+                <div id="timer">Time: <span id="time">0</span>
+                
+                </div>
+            </div>
+        </header>
+    
+        <main id="page-content">
+            <div id="positionWrapper">
+                <section id="intro">
+                    <h1>Coding Quiz Challenge</h1>
+                    <h3>Welcome to your Coding Challege! Here your knowledge of CSS, Javascript, and HTML will be tested.
+                        <br>You will have 3 minutes to complete the quiz.
+                        <br> Any wrong answer will result in a 15 second penalty. Good luck, and may the odds ever be in your favor!
+                    </h3>
+                    <button id="start-btn">Start Quiz</button>
+                </section>
+    
+                <section id="quizHolder" class="hide">
+                    <div id="questionHolder">
+                    </div>
+                    <div id="scoreIndicator" class="invisible">
+                        <p>&nbsp;</p>
+                    </div>
+                </section>
+    
+                <section id="finish" class="hide">
+                    <h2>Quiz Finished</h2>
+                    <p>Your final score is&nbsp;<span id="score"></span></p>
+                    <div id="records">
+                        <p>Enter initials: </p><input id="initials" type="text"> <button>Submit</button>
+                    </div>
+                    <div id="errorIndicator" class="invisible">
+                        <p>&nbsp;</p>
+                    </div>
+                </section>
+    
+                <section id="highScores" class="hide">
+                    <h4>High Scores</h4>
+                    <div id="highScoreHolder">
+    
+                    </div>
+                    <button id="reset">Go Back</button> <button id="clearScores">Clear Highscores</button>
+                </section>
+            </div>
+        </main>
+    
+        <script src="./assets/js/script.js"></script>
+    </body>
+    
+    </html>
+
+
+
+
+
+
+
+
+
